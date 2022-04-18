@@ -1,0 +1,233 @@
+
+div h2.Header{
+  color: white;
+  width: 98%;
+  background-color: #006dd0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 2%;
+  margin: 0;
+  opacity: 0.8;
+}
+div div.EmpList{
+  font-size: 20pt;
+  text-align: center;
+  padding: 10px;
+}
+ div div table{
+  margin-left: 10%;
+}
+.search{
+  width: 80%;
+  height: 6vh;
+  margin-left: 10%;
+  text-align: right;
+}
+#search{
+  border: none;
+  background-color: #f2f2f2;
+  width: 20%;
+  height: 5vh;
+  border-radius: 15px;
+  text-align: center;
+  margin: 1vh;
+}
+input:focus {
+  outline:none;
+}
+.addButton {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  justify-content: center;
+  line-height: 0.25;
+  margin: 0;
+  min-height: 0.2vh;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  border-radius: 15px;
+}
+
+.addButton:hover,
+.addButton:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 4px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.addButton:hover {
+  transform: translateY(-1px);
+}
+
+.addButton:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+.addButton{
+  height: 5vh;
+  width: 20vh;
+}
+
+.loginBack{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #00000069;
+  text-align: center;
+  z-index: 9;
+}
+.login{
+  width: 50vh;
+  position: absolute;
+  margin: 1vh #afaeae;
+  background-color: #FFFFFF;
+  z-index: 10;
+  padding: 6vh;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  transform: translate(+100%,+15%);
+  text-align: center;
+}
+.login .inputText{
+  position: relative;
+}
+.login .inputText input{
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #5a5959;
+  outline: none;
+  background: transparent;
+}
+.choose{
+  text-align: left;
+  font-size: 16px;
+}
+.choose input{
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  margin-bottom: 30px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.choose label{
+  font-size: 18px;
+}
+/*.login .inputText label{
+  position: absolute;
+  top: 5px;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  pointer-events: none;
+  transition: .5s;
+}
+.login .inputText input label:focus,
+.login .inputText input label:valid {
+  transform: translate(-5px,0);
+  font-size: 12px;
+}*/
+.addUp {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 1vh;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.addUp:hover,
+.addUp:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.addUp:hover {
+  transform: translateY(-1px);
+}
+
+.addUp:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+.cancel {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 1vh;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.cancel:hover,
+.cancel:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.cancel:hover {
+  transform: translateY(-1px);
+}
+
+.cancel:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}

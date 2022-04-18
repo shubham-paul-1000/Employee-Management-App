@@ -1,0 +1,24 @@
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 2vh;
+  }
+  
+  table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  table td.expand{
+    text-align: center;
+  }
+  
+  table tr.previewRow:hover {background-color: #ddd;}
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #228604;
+    color: white;
+    opacity: 0.6;
+  }

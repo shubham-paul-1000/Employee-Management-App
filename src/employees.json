@@ -1,0 +1,53 @@
+{
+  "employeeList": [
+    {
+      "id": "K000001",
+      "FirstName": "Rahul",
+      "LastName": "Ahuja",
+      "EmailId": "rahul.ahuja@capgemini.com",
+      "Location": "Pune"
+    },
+    {
+      "id": "K000002",
+      "FirstName": "Rohit",
+      "LastName": "Patel",
+      "EmailId": "rohit.patel@capgemini.com",
+      "Location": "Pune"
+    },
+    {
+      "id": "K000003",
+      "FirstName": "Kunal",
+      "LastName": "Bhatt",
+      "EmailId": "kunal.bhatt@capgemini.com",
+      "Location": "Bangalore"
+    },
+    {
+      "id": "K000004",
+      "FirstName": "Raj",
+      "LastName": "Verma",
+      "EmailId": "raj.verma@capgemini.com",
+      "Location": "Chennai"
+    },
+    {
+      "id": "K000005",
+      "FirstName": "Akash",
+      "LastName": "Chowdhury",
+      "EmailId": "akash.chowdhury@capgemini.com",
+      "Location": "Kolkata"
+    },
+    {
+      "id": "K000006",
+      "FirstName": "Dhwani",
+      "LastName": "Apte",
+      "EmailId": "dhawni.apte@capgemini.com",
+      "Location": "Bangalore"
+    },
+    {
+      "FirstName": "Rohan",
+      "LastName": "Kundra",
+      "EmailId": "rohan.kundra@capgemini.com",
+      "Location": "Chennai",
+      "id": "K000007"
+    }
+  ]
+}
